@@ -20,6 +20,11 @@ return {
           ['<c-b>'] = 'close_window',
         },
       },
+      filtered_items = {
+        visible = true,
+        hide_dotfiles = false,
+        hide_gitignored = true,
+      },
     },
   },
 }
